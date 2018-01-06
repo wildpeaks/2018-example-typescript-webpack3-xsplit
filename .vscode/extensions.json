@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"EditorConfig.editorconfig",
+		"dbaeumer.vscode-eslint",
+		"WallabyJs.wallaby-vscode",
+		"msjsdiag.debugger-for-chrome"
+	]
+}
