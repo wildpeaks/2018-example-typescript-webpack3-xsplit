@@ -1,0 +1,32 @@
+{
+	"eslint.validate": [
+		"javascript",
+		"typescript"
+	],
+	"files.exclude": {
+		"*.lnk": true,
+		"*.url": true,
+		"LICENSE": true,
+		".chrome": true,
+		".editorconfig": true,
+		".gitignore": true,
+		".gitattributes": true,
+		".npmrc": true,
+		"dist": true,
+		"node_modules": true,
+		"package-lock.json": true
+	},
+	"search.exclude": {
+		"*.lnk": true,
+		"*.url": true,
+		"LICENSE": true,
+		".chrome": true,
+		".editorconfig": true,
+		".gitignore": true,
+		".gitattributes": true,
+		".npmrc": true,
+		"dist": true,
+		"node_modules": true,
+		"package-lock.json": true
+	}
+}

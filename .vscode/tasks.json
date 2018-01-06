@@ -1,0 +1,62 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Webpack Build",
+			"type": "npm",
+			"script": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				{
+					"owner": "webpack",
+					"severity": "error",
+					"fileLocation": "absolute",
+					"pattern": [
+						{
+							"regexp": "ERROR in (.*)",
+							"file" : 1
+						},
+						{
+							"regexp": "\\((\\d+),(\\d+)\\):(.*)",
+							"line":1,
+							"column": 2,
+							"message": 3
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Webpack Dev Server",
+			"type": "npm",
+			"script": "watch",
+			"group": "build",
+			"isBackground": true,
+			"presentation": {
+				"panel": "new",
+				"reveal": "silent"
+			},
+			"problemMatcher": {
+				"owner": "webpack",
+				"pattern": {
+					"regexp": "__________"
+				},
+				"watching": {
+					"activeOnStart": true,
+					"beginsPattern": "^webpack: Compiling\\.\\.\\.$",
+					"endsPattern": "^webpack: Compiled successfully\\.$"
+				}
+			}
+		},
+		{
+			"label": "Jasmine Tests",
+			"type": "npm",
+			"script": "test",
+			"group": "test",
+			"problemMatcher": []
+		}
+	]
+}

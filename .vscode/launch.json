@@ -1,0 +1,17 @@
+{
+	"version": "1.0.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "attach",
+			"name": "Attach to Xsplit",
+			"port": 9222,
+			// "webRoot": "${workspaceFolder}/dist"
+			"webRoot": "${workspaceRoot}/src",
+			"userDataDir": "${workspaceRoot}/.chrome",
+			"sourceMapPathOverrides": {
+				"webpack:///src/*": "${webRoot}/*"
+			}
+		}
+	]
+}
