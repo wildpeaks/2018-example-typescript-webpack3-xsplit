@@ -1,0 +1,35 @@
+
+#-----------------------------------------------------------------------------#
+# Ignore everything by default:
+#-----------------------------------------------------------------------------#
+
+/*
+/*/
+
+
+#-----------------------------------------------------------------------------#
+# But allow those files and folders:
+#-----------------------------------------------------------------------------#
+
+!/LICENSE
+!/README.md
+!/.editorconfig
+!/.gitattributes
+!/.gitignore
+!/.npmrc
+!/.travis.yml
+!/.vscode
+!/jasmine.typescript.js
+!/src
+!/tsconfig.json
+!/package.json
+!/wallaby.js
+!/wallaby.chrome.js
+!/webpack.config.js
+
+#-----------------------------------------------------------------------------#
+# But make sure to ignore those regardless:
+#-----------------------------------------------------------------------------#
+
+.DS_Store
+Thumbs.db
