@@ -1,6 +1,6 @@
-# Boilerplate: Xsplit Extension
+# Boilerplate: XSplit Extension
 
-Boilerplate to create custom Extensions for [XSplit Broadcaster](https://www.xsplit.com/#broadcaster)
+Boilerplate for creating Custom Extensions for [XSplit Broadcaster](https://www.xsplit.com/#broadcaster)
 written in **Typescript** using [Visual Studio Code](https://code.visualstudio.com).
 
 **Important**: until [PR #188](https://github.com/xjsframework/xjs/pull/188) is merged & published,
@@ -26,7 +26,7 @@ instead of brittle relative paths like `../../../components/MyComponent/MyCompon
 
 ## Assets
 
-Images referenced in modules get automatically added to the build (jpg, png, gif and svg),
+Images referenced in modules get automatically added to the build (jpg, png, gif, svg),
 and tiny images are directly embedded as base64 values.
 
 CSS files referenced in modules get aggregated and postprocessed
@@ -94,7 +94,7 @@ First, enable **Developer Mode** in XSplit Broadcaster (in `Settings` > `Advance
 
 Then, start `Webpack Dev Server` task in VSCode if it's not already running.
 
-Then load the extension from `http://localhost:8000` in XSplit.
+Then, load the extension from `http://localhost:8000` in XSplit.
 
 Finally, start **Attach to XSplit** in the **Debug tab** in VSCode.
 
@@ -118,7 +118,7 @@ However, Wallaby cannot run both Node and Chrome tests at the same time for now.
 
 ## Linting
 
-VSCode is configured for linting Typescript with ESlint using the
+VSCode is configured for linting Typescript with [ESlint](https://eslint.org) using the
 [@wildpeaks/typescript](https://www.npmjs.com/package/@wildpeaks/eslint-config-typescript) shared config.
 
 
