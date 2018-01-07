@@ -68,11 +68,11 @@ declare module '*.jpg' {
 MyComponent.ts
 ````ts
 /// <reference path="./MyComponent.d.ts" />
-import {myclass1, myclass2} from './MyComponent.css';
+import {class1, class2} from './MyComponent.css';
 import * as image from './image.jpg';
 
-// myclass1 is a string
-// myclass2 is a string
+// class1 is a string
+// class2 is a string
 // image is a string
 ````
 
