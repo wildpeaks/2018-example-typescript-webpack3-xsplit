@@ -1,5 +1,7 @@
 # Boilerplate: XSplit Extension
 
+[![Build Status](https://travis-ci.org/wildpeaks/boilerplate-typescript-webpack-xsplit.svg?branch=master)](https://travis-ci.org/wildpeaks/boilerplate-typescript-webpack-xsplit)
+
 Boilerplate for creating Custom Extensions for [XSplit Broadcaster](https://www.xsplit.com/#broadcaster)
 written in **Typescript** using [Visual Studio Code](https://code.visualstudio.com).
 
