@@ -17,7 +17,7 @@
     "test": "jasmine --helper=jasmine.typescript.js src/**/*.spec.ts"
   },
   "devDependencies": {
-    "@types/jasmine": "2.8.5",
+    "@types/jasmine": "2.8.6",
     "@types/node": "9.4.0",
     "@types/webpack": "3.8.3",
     "@wildpeaks/eslint-config-typescript": "4.3.0",
