@@ -1,7 +1,5 @@
 # Boilerplate: XSplit Extension
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/wildpeaks/boilerplate-typescript-webpack-xsplit.svg)](https://greenkeeper.io/)
-
 [![Build Status](https://travis-ci.org/wildpeaks/boilerplate-typescript-webpack-xsplit.svg?branch=master)](https://travis-ci.org/wildpeaks/boilerplate-typescript-webpack-xsplit)
 
 Boilerplate for creating Custom Extensions for [XSplit Broadcaster](https://www.xsplit.com/#broadcaster)
