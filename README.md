@@ -7,10 +7,6 @@
 Boilerplate for creating Custom Extensions for [XSplit Broadcaster](https://www.xsplit.com/#broadcaster)
 written in **Typescript** using [Visual Studio Code](https://code.visualstudio.com).
 
-**Important**: until [PR #188](https://github.com/xjsframework/xjs/pull/188) is merged & published,
-you have to manually add a line `"types": "src/index.ts"` in the package.json
-of module `xjs-framework` for VSCode Intellisense to work.
-
 
 -------------------------------------------------------------------------------
 
